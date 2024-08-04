@@ -29,8 +29,8 @@ dependencies:
   - brotli-bin=1.0.9=h5eee18b_7
   - brotli-python=1.0.9=py311h6a678d5_7
   - bzip2=1.0.8=h7b6447c_0
-  - ca-certificates=2024.3.11=h06a4308_0
-  - certifi=2024.6.2=py311h06a4308_0
+  - ca-certificates=2024.7.4=hbcca054_0
+  - certifi=2024.7.4=pyhd8ed1ab_0
   - cffi=1.16.0=py311h5eee18b_0
   - chardet=5.2.0=py311h38be061_1
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
@@ -181,7 +181,7 @@ dependencies:
   - numpydoc=1.6.0=pyhd8ed1ab_0
   - openjpeg=2.4.0=h3ad879b_0
   - openpyxl=3.1.2=py311h459d7ec_1
-  - openssl=3.2.1=hd590300_0
+  - openssl=3.3.1=h4bc722e_2
   - overrides=7.4.0=py311h06a4308_0
   - packaging=23.1=py311h06a4308_0
   - pandas=2.2.1=py311h320fe9a_0
@@ -255,6 +255,7 @@ dependencies:
   - rtree=1.2.0=py311h3bb2b0f_0
   - scikit-learn=1.2.2=py311h6a678d5_1
   - scikit-learn-intelex=2023.1.1=py311h06a4308_0
+  - scikit-posthocs=0.9.0=pyhd8ed1ab_1
   - scipy=1.12.0=py311h64a7726_2
   - seaborn=0.13.2=hd8ed1ab_0
   - seaborn-base=0.13.2=pyhd8ed1ab_0
@@ -318,6 +319,7 @@ dependencies:
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.5.5=hc292b87_0
   - pip:
+      - diptest==0.8.0
       - fqdn==1.5.1
       - isoduration==20.11.0
       - jsonpointer==2.4
